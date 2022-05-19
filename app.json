@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "smartPlug",
+    "slug": "smartPlug",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/icons/icon.png",
+    "splash": {
+      "image": "./app/assets/icons/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/icons/icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./app/assets/icons/favicon.png"
+    },
+    "description": "Mobile app that controls a smart plug using http protocol.",
+    "githubUrl": "https://github.com/OussamaKhouya/smart-plug-mobile-app-react-native"
+  }
+}
